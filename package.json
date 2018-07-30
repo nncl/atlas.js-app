@@ -1,0 +1,35 @@
+{
+  "name": "atlas.js-app",
+  "version": "1.0.0",
+  "description": "An Atlas.js application 😎",
+  "main": "src",
+  "scripts": {
+    "start": "./bin/atlas start"
+  },
+  "keywords": [
+    "atlas.js",
+    "atlas.js-app"
+  ],
+  "license": "ISC",
+  "skipInstall": false,
+  "skipCache": false,
+  "forceInstall": false,
+  "force-install": false,
+  "author": "nncl",
+  "dependencies": {
+    "@app/noop": "file:src/components/noop",
+    "@atlas.js/atlas": "^2.1.0",
+    "@atlas.js/cli": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.55",
+    "@babel/core": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.55",
+    "@babel/plugin-syntax-object-rest-spread": "^7.0.0-beta.55",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0-beta.55",
+    "@strv/eslint-config-javascript": "^8.0.4",
+    "babel-eslint": "^8.2.6",
+    "dotenv": "^5.0.1",
+    "eslint": "^5.2.0"
+  }
+}

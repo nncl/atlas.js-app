@@ -1,0 +1,7 @@
+{
+  "@atlas.js/generator-atlas": {
+    "eslint": true,
+    "testsuite": false,
+    "vscode": false
+  }
+}
